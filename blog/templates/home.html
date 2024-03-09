@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ContentChronicles</title>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.wallpapersafari.com/66/82/pKCuAG.png'); /* Replace 'background.jpg' with your image URL */
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px; /* Increased padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  .navbar span {
+    color: #ffffff; /* Blog webpage name in white color */
+    font-size: 28px; /* Increased font size */
+    text-align: center;
+    flex-grow: 1;
+    transition: color 0.3s, text-shadow 0.3s; /* Transition for hovering effect */
+    font-weight: bold; /* Bold font weight */
+    letter-spacing: 2px; /* Increase letter spacing */
+    text-transform: uppercase; 
+  }
+
+ 
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Curved edges */
+    transition: all 0.3s ease; /* Transition for hover effect */
+    position: relative;
+  }
+  .box:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  .box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .box .title-box {
+    
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color */
+    color: #ffffff; /* Text color */
+    padding: 10px;
+    position: absolute; /* Absolute positioning */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    border-radius: 0 0 10px 10px; /* Add border radius only to bottom */
+    box-sizing: border-box; /* Include padding and border in the box sizing */
+    transition: opacity 0.3s ease;
+  }
+</style>
+</head>
+<body>
+<div class="navbar">
+  <span>Content Chronicles</span>
+ 
+</div>
+<div class="container">
+  <a href="trip">
+  <div class="box" style="background-image: url('https://th.bing.com/th/id/OIP.P0NvbJ4QcV0HcneVDyYkIgHaIh?w=1391&h=1600&rs=1&pid=ImgDetMain');background-size: cover;background-repeat: no-repeat;">
+    
+   <div class="title-box">
+      <h3>Trip to Paris</h3>
+    </div>
+    
+  </div>
+  </a>
+  <a href="cooking">
+  <div class="box" style="background-image: url('https://static.vecteezy.com/system/resources/previews/001/936/427/original/cute-bakery-chef-girl-cooking-smiling-cartoon-art-illustration-vector.jpg');background-size: cover;background-repeat: no-repeat;">
+    
+    <div class="title-box">
+       <h3>Cooking First Time</h3>
+     </div>
+     
+   </div>
+   </a>
+   <a href="dogs">
+   <div class="box" style="background-image: url('https://th.bing.com/th/id/OIP.tInIi-RiwGYdp8DAC9lLwAHaHa?w=626&h=626&rs=1&pid=ImgDetMain');background-size: cover;background-repeat: no-repeat;">
+    
+    <div class="title-box">
+       <h3>Adopting Dogs</h3>
+     </div>
+     
+   </div>
+   </a>
+   <a href="kitchen">
+   <div class="box" style="background-image: url('https://c8.alamy.com/comp/2G2NH0P/cookig-concept-template-wooden-cutting-board-with-copy-space-and-vegetables-with-kitchen-utensils-watercolor-hand-drawn-illustration-isolated-on-whi-2G2NH0P.jpg');background-size: cover;background-repeat: no-repeat;">
+    
+    <div class="title-box">
+       <h3>Tips for Clean Kitchen</h3>
+     </div>
+     
+   </div>
+   </a>
+   <a href="height">
+   <div class="box" style="background-image: url('https://media.istockphoto.com/vectors/scared-man-panicking-on-roof-of-building-cartoon-vector-illustration-vector-id1319132077?k=20&m=1319132077&s=612x612&w=0&h=FJdAB_iaXz1GKTkB8G_lkSLleOZMnIVdKZ7B1Z5OS6Q=');background-size: cover;background-repeat: no-repeat;">
+    
+    <div class="title-box">
+       <h3>My fear of Heights </h3>
+     </div>
+     
+   </div>
+   </a>
+</div>
+</body>
+</html>
